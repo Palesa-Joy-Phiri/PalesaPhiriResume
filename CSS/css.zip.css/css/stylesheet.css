@@ -6,10 +6,12 @@ body{
 
 header {
   text-align: center;
-  color: bisque;
+  color: rgb(0, 0, 0);
+  background-color: #ddf08a;
 }
 
 footer {
-  background-color: #343330;
+  background-color: #d3f054;
   text-align: center;
+  color: black;
 }

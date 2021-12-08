@@ -147,3 +147,13 @@ font-style: italic;
 #Computerskillsdiv {
   text-align: center;
 }
+
+#Socialmedia {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+#Online {
+  font-size: 13px;
+  font-family: cursive;
+}

@@ -19,6 +19,7 @@ header {
 
 main {
   display: flex;
+  flex-direction: row;
 }
 
 footer {
@@ -66,6 +67,10 @@ h5 {
 
 .Icons {
   border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 /* ID SECTION */
@@ -97,13 +102,14 @@ h5 {
   border-color: black;
   margin-top: 1px;
   margin-bottom: 1px;
-  
+  width: 250px;
+  height: 200px 
 }
 
 #Imagediv {
   background-color: white;
   margin-top: 1px;
-  margin-bottom: -40px;
+  margin-bottom: -10px;
 }
 
 #Introdiv {
@@ -120,10 +126,10 @@ h5 {
 }
 
 #Aside {
-  color: rgb(111, 250, 250);
+  color: rgb(11, 131, 131);
   background-color: #ffbf69;
   width: 150px;
-  height: 2100px;
+  height: 1890px;
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -145,11 +151,10 @@ h5 {
   border-radius: 85px;
 }
 
-#Realskilssdiv {
+#Realskillsdiv {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
 }
 
 #Realskills {
@@ -162,18 +167,23 @@ h5 {
  border: 1px solid;
  padding: 10px;
  width: 20%;
+ margin-left: 60px;
+ margin-bottom: 10px;
 }
 
 #Computerskills {
  border: 1px solid;
  padding: 10px;
  width: 20%;
+ margin-bottom: 10px;
 }
 
 #Otherskills {
   border: 1px solid;
   padding: 10px;
   width: 20%;
+  margin-right: 60px;
+  margin-bottom: 10px;
 }
 
 
@@ -215,5 +225,4 @@ h5 {
 
 #Linksdiv {
   display: inline-block;
-  flex-wrap: wrap;
 }
